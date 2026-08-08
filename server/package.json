@@ -1,0 +1,17 @@
+{
+  "name": "rentalflow-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "node --watch server.js", "start": "node server.js", "seed": "node server.js --seed" },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-validator": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "razorpay": "latest"
+  }
+}

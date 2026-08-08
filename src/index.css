@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@theme { --color-brand: #7968ff; --color-ink: #0d0d12; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background:#515170; color:#f4f4f5; font-family: "Times New Roman", Times, Georgia, serif; transition: background .2s ease, color .2s ease; }
+button, input, select, textarea { font: inherit; }
+button { cursor:pointer; }
+::-webkit-scrollbar { width: 8px; height: 8px; } ::-webkit-scrollbar-thumb { background:#3f3f46; border-radius:99px; }
+.field { width:100%; appearance:none; border:1px solid #000000; border-radius:.7rem; background:#18181b; padding:.7rem .8rem; color:white; outline:none; } .field:focus { border-color:#7968ff; box-shadow:0 0 0 3px #7968ff33; }
+.search-field { border-radius:999px; background:#414163; border-color:#3f3f46; } .search-field::placeholder { color:#a1a1aa; }
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:.45rem; border-radius:.7rem; padding:.65rem .9rem; font-weight:600; transition:.18s; } .btn:hover { filter:brightness(1.12); } .btn-primary { background:#7968ff;color:#fff; } .btn-muted { background:#27272a;color:#e4e4e7; } .card { border:1px solid #27272a;background:#18181b;border-radius:1rem; }
+[data-theme="light"] body { background:#f4f4f5; color:#18181b; }
+[data-theme="light"] .bg-zinc-950 { background-color:#f4f4f5 !important; }
+[data-theme="light"] .bg-zinc-950\/95 { background-color:#ffffff !important; }
+[data-theme="light"] .bg-zinc-900, [data-theme="light"] .bg-zinc-900\/95 { background-color:#ffffff !important; }
+[data-theme="light"] .bg-zinc-800, [data-theme="light"] .bg-zinc-800\/50 { background-color:#e4e4e7 !important; }
+[data-theme="light"] .card, [data-theme="light"] .field { background:#ffffff; border-color:#d4d4d8; color:#18181b; }
+[data-theme="light"] .search-field { background:#ffffff; border-color:#d4d4d8; }
+[data-theme="light"] .text-white { color:#378d44 !important; }
+[data-theme="light"] .text-zinc-100, [data-theme="light"] .text-zinc-200, [data-theme="light"] .text-zinc-300 { color:#3f3f46 !important; }
+[data-theme="light"] .text-zinc-400, [data-theme="light"] .text-zinc-500 { color:#52525b !important; }
+[data-theme="light"] .border-zinc-800, [data-theme="light"] .border-zinc-700 { border-color:#d4d4d8 !important; }
+header nav a { color:#e4e4e7 !important; }
+[data-theme="light"] header nav a { color:#27272a !important; }

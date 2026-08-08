@@ -1,0 +1,60 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\nilab\Documents\Codex\2026-08-08\c\.npmrc
+5 silly config load:file:C:\Users\nilab\.npmrc
+6 silly config load:file:C:\Users\nilab\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\nilab\Documents\Codex\2026-08-08\c\work\npm-cache\_logs\2026-08-08T14_44_18_497Z-
+10 verbose logfile C:\Users\nilab\Documents\Codex\2026-08-08\c\work\npm-cache\_logs\2026-08-08T14_44_18_497Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest recharts@latest
+15 silly packumentCache full:https://registry.npmjs.org/recharts cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET https://registry.npmjs.org/recharts attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/recharts attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/recharts attempt 3 failed with EACCES
+20 silly placeDep ROOT recharts@ OK for: rentalflow@1.0.0 want: latest
+21 verbose type system
+22 verbose stack FetchError: request to https://registry.npmjs.org/recharts failed, reason: 
+22 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+22 verbose stack     at ClientRequest.emit (node:events:519:28)
+22 verbose stack     at emitErrorEvent (node:_http_client:105:11)
+22 verbose stack     at _destroy (node:_http_client:898:9)
+22 verbose stack     at onSocketNT (node:_http_client:918:5)
+22 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+23 error code EACCES
+24 error errno EACCES
+25 error FetchError: request to https://registry.npmjs.org/recharts failed, reason: 
+25 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+25 error     at ClientRequest.emit (node:events:519:28)
+25 error     at emitErrorEvent (node:_http_client:105:11)
+25 error     at _destroy (node:_http_client:898:9)
+25 error     at onSocketNT (node:_http_client:918:5)
+25 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+25 error   code: 'EACCES',
+25 error   errno: 'EACCES',
+25 error   type: 'system',
+25 error   requiredBy: '.'
+25 error }
+26 error
+26 error The operation was rejected by your operating system.
+26 error It's possible that the file was already in use (by a text editor or antivirus),
+26 error or that you lack permissions to access it.
+26 error
+26 error If you believe this might be a permissions issue, please double-check the
+26 error permissions of the file and its containing directories, or try running
+26 error the command again as root/Administrator.
+27 silly unfinished npm timer reify 1786200260695
+28 silly unfinished npm timer reify:loadTrees 1786200260697
+29 verbose cwd C:\Users\nilab\Documents\Codex\2026-08-08\c
+30 verbose os Windows_NT 10.0.26200
+31 verbose node v22.19.0
+32 verbose npm  v10.9.3
+33 verbose exit 1
+34 verbose code 1
+35 error A complete log of this run can be found in: C:\Users\nilab\Documents\Codex\2026-08-08\c\work\npm-cache\_logs\2026-08-08T14_44_18_497Z-debug-0.log
